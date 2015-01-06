@@ -17,6 +17,7 @@
 		32F66E511A22256100747233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F66E501A22256100747233 /* ViewController.m */; };
 		32F66E531A22256100747233 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F66E521A22256100747233 /* Images.xcassets */; };
 		32F66E561A22256100747233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F66E541A22256100747233 /* Main.storyboard */; };
+		9153D28F742C742C27F0A001 /* sqliteviewer.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 9153DF92D1389940B02919B3 /* sqliteviewer.dmg */; };
 		D21B3BE01A400E9B005C3068 /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = D21B3BDF1A400E9B005C3068 /* app.icns */; };
 		D2B40B101A3F05BC00B068D7 /* QueryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B40B0E1A3F05BC00B068D7 /* QueryWindowController.m */; };
 		D2B40B111A3F05BC00B068D7 /* QueryWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B40B0F1A3F05BC00B068D7 /* QueryWindowController.xib */; };
@@ -45,6 +46,7 @@
 		32F66E611A22256100747233 /* MyToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyToolTests.m; sourceTree = "<group>"; };
 		4A1EED5F3425AD732E363763 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7DA51477ACF8493803B545B6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9153DF92D1389940B02919B3 /* sqliteviewer.dmg */ = {isa = PBXFileReference; lastKnownFileType = file.dmg; path = sqliteviewer.dmg; sourceTree = "<group>"; };
 		D21B3BDF1A400E9B005C3068 /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
 		D2B40B0D1A3F05BC00B068D7 /* QueryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryWindowController.h; sourceTree = "<group>"; };
 		D2B40B0E1A3F05BC00B068D7 /* QueryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryWindowController.m; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				32F66E461A22256100747233 /* Products */,
 				890C699C62B4E5DCCCE68E7E /* Pods */,
 				E2C27B3C3FFA18BD8A9C5FA7 /* Frameworks */,
+				9153DF92D1389940B02919B3 /* sqliteviewer.dmg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +238,7 @@
 				32F66E531A22256100747233 /* Images.xcassets in Resources */,
 				D2B40B111A3F05BC00B068D7 /* QueryWindowController.xib in Resources */,
 				32F66E561A22256100747233 /* Main.storyboard in Resources */,
+				9153D28F742C742C27F0A001 /* sqliteviewer.dmg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
