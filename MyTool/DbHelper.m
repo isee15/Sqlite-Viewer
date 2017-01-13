@@ -14,8 +14,8 @@
 
 + (QueryResult *)query:(NSString *)sql inDb:(NSString *)dbPath andKey:(NSString *)key
 {
-    sql = [[sql stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
-    if ([sql hasPrefix:@"insert"] || [sql hasPrefix:@"update"] || [sql hasPrefix:@"alter"] || [sql hasPrefix:@"delete"]) {
+    NSString *lowerSql = [[sql stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
+    if ([lowerSql hasPrefix:@"insert"] || [lowerSql hasPrefix:@"update"] || [lowerSql hasPrefix:@"alter"] || [lowerSql hasPrefix:@"delete"]) {
         return [DbHelper execute:sql inDb:dbPath andKey:key];
     }
     QueryResult *queryResult = [[QueryResult alloc] init];
