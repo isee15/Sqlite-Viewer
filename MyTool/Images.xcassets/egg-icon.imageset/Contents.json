@@ -1,13 +1,21 @@
 {
-  "images": [
+  "images" : [
     {
-      "idiom": "universal",
-      "scale": "1x",
-      "filename": "egg-icon.png"
+      "idiom" : "universal",
+      "filename" : "egg-icon.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
-  "info": {
-    "version": 1,
-    "author": "xcode"
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
   }
 }
