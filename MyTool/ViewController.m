@@ -96,7 +96,8 @@
 {
     NSString *key = self.passwordTextField.stringValue;
     NSString *dbPath = self.pathTextField.stringValue;
-    if (![[NSFileManager defaultManager] fileExistsAtPath:dbPath isDirectory:NO]) {
+    NSString *memoryPath = @"file::memory:";
+    if (![[NSFileManager defaultManager] fileExistsAtPath:dbPath isDirectory:NO] && ![dbPath isEqualToString:memoryPath]) {
         NSAlert *alert = [[NSAlert alloc] init];
 
         [alert addButtonWithTitle:@"OK"];
