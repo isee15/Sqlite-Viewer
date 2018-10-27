@@ -1,10 +1,7 @@
 PODS:
-  - FMDB (2.4):
-    - FMDB/standard (= 2.4)
-  - FMDB/common (2.4)
-  - FMDB/standard (2.4):
-    - FMDB/common
-  - PLCrashReporter (1.2-rc5)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - SQLCipher (3.1.0):
     - SQLCipher/standard (= 3.1.0)
   - SQLCipher/common (3.1.0)
@@ -13,12 +10,17 @@ PODS:
 
 DEPENDENCIES:
   - FMDB (~> 2.4)
-  - PLCrashReporter (~> 1.2-rc5)
   - SQLCipher (~> 3.1.0)
 
-SPEC CHECKSUMS:
-  FMDB: 0b2fa25e5264ef177973c0cb8c02c711107979aa
-  PLCrashReporter: 979cd3c5bda33655f4df58fa6219d067183d7a7e
-  SQLCipher: 981110217eb93c2779c34fb59e646a1c1da918d8
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - SQLCipher
 
-COCOAPODS: 0.35.0
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  SQLCipher: 4684434d5791db86512cd7e02172aefba575849e
+
+PODFILE CHECKSUM: 9f55fc0dbf3865c8e2a78b4f6e407fa0faf21fcb
+
+COCOAPODS: 1.5.3

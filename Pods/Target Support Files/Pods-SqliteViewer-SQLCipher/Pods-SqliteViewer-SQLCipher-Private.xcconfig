@@ -1,6 +1,0 @@
-#include "Pods-SqliteViewer-SQLCipher.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/SQLCipher" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/PLCrashReporter" "${PODS_ROOT}/Headers/Public/SQLCipher"
-OTHER_CFLAGS = ${PODS_SQLITEVIEWER_SQLCIPHER_OTHER_CFLAGS}
-OTHER_LDFLAGS = ${PODS_SQLITEVIEWER_SQLCIPHER_OTHER_LDFLAGS} -ObjC
-PODS_ROOT = ${SRCROOT}
